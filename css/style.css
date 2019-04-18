@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+html {
+   /* background: url(img/lilies.jpg) center fixed;
+    background-size: cover;*/
+}
+header{ 
+    color: rgb(56, 4, 4);
+    background-image: url("img/lilies3.jpg");
+    background-repeat: no-repeat;
+    font-style: italic;
+    text-align:center;
+    font-size: 20px;
+    display: block;
+}
+
+nav {
+    background-color: lightseagreen;
+    color: palevioletred;
+    
+    display: block;
+    
+    font-size: 14px;
+}
+body {
+    
+    
+    /*background-color: lightgreen; */
+
+    /*background-image: url("img/lilies.jpg") center fixed;*/
+    background-repeat: no-repeat;
+    
+    color: blueviolet;
+    font-family:Playfair+Display;
+    align-content: center;
+}
+
+h2{
+    color: red;
+    font-family: Playfair+Display;
+    text-align: center;
+
+}
+
+.k{
+    border-color: violet;
+    border-block-end-color: blueviolet;
+    color: rgb(0, 52, 241);
+    font-style: initial;
+    text-shadow: #999999 1px 1px 1px;
+    font: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif';
+    font-size: 24px;
+    font-style: oblique;
+}
+
+#aboutme{
+    color: rgb(128, 12, 50);
+    font:italic;
+    font-family: 'Playfair+Display';
+    font-size: 14px;
+    font-style: oblique;
+    border-image: 25%;
+    border-image-source: img/lilies1.jpg;
+
+
+
+}
+
+Main{
+background-color: azure
+
+
+
+}
+
+section {
+    background-color: pink ;
+    color: black;
+    width: 475px;
+    display:inline-block;
+    padding: 20px;
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: thick;
+      
+      
+}
