@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 
-html {
-   /* background: url(img/lilies.jpg) center fixed;
-    background-size: cover;*/
-}
-header{ 
+
+   background: url(img/lilies.jpg) center fixed;
+    background-size: cover
+
+#top { 
     color: rgb(56, 4, 4);
-    background-image: url("img/lilies3.jpg");
+    background-image: url("img/lilies3.jpg") center fixed;
     background-repeat: no-repeat;
     font-style: italic;
     text-align:center;
@@ -15,24 +15,25 @@ header{
 }
 
 nav {
+    
     background-color: lightseagreen;
     color: palevioletred;
-    
+    list-style: none;
     display: block;
-    
     font-size: 14px;
 }
 body {
-    
-    
-    /*background-color: lightgreen; */
-
-    /*background-image: url("img/lilies.jpg") center fixed;*/
+    background-image: url("img/lilies.jpg") center fixed;
     background-repeat: no-repeat;
     
-    color: blueviolet;
+    color: rgb(154, 77, 226);
     font-family:Playfair+Display;
     align-content: center;
+}
+h1{
+    color:rgb(128, 12, 50);
+    
+    display: inline-block;
 }
 
 h2{
@@ -44,7 +45,7 @@ h2{
 
 .k{
     border-color: violet;
-    border-block-end-color: blueviolet;
+    border-color: blueviolet;
     color: rgb(0, 52, 241);
     font-style: initial;
     text-shadow: #999999 1px 1px 1px;
@@ -87,3 +88,16 @@ section {
       
       
 }
+
+
+gamepage{
+
+    width: 80%;
+    min-height:  40cm;
+    margin: auto;
+    border: solid 2px #000;
+    background-image: url(lilies2.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+        }
