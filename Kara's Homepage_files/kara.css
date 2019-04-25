@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Coda|Electrolize|Grand+Hotel|Italianno|Mr+Dafoe|Noto+Serif+SC|Noto+Serif+TC|Oswald|Rancho');Noto+Serif+SC|Noto+Serif+TC|Oswald');
+/*This is comment*/
+body{
+         
+    color: blueviolet;
+        font-family:'Noto Serif TC';
+}
+
+html {
+    background: url(sampleimg1.jpg) center fixed; 
+    background-size: cover;
+  }
+
+h1{
+    color:blue;
+    font-style: oblique;
+ 
+    font-family:'Oswald';
+ 
+    font-size: 65px;
+}
+#me1{
+    color: black;
+    font-family: 'Italianno';
+    font-size: 60px;
+}
+
+#me3{
+    color: black;
+    font-family: 'Italianno';
+    font-size: 32px;
+}
+
+#ks1{
+    color: darkblue;
+    font-family: 'Oswald';
+
+}
+h3{
+    color:rgb(233, 6, 44);
+    font-family: 'Electrolize';
+    font-size: 82px;
+    font-family:'Noto+Serif+SC';
+    text-align: center;
+
+}
+
+.ks{
+        color: green;
+        font: italic;
+        font-family: 'Rancho';
+        font-size: 45px;
+        font-style: oblique;
+}

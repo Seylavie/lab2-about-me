@@ -1,111 +1,87 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Coda|Electrolize|Grand+Hotel|Italianno|Mr+Dafoe|Noto+Serif+SC|Noto+Serif+TC|Oswald|Rancho');
 
-body {background-img src="img/K1.jpg"}
-
-header {background: url(img/lilies.jpg) center fixed;
-    background-size: cover}
+body {
+    background:url(lilies2.jpg) center fixed; 
+    background-size: cover;
 }
+
 #top { 
     color: rgb(56, 4, 4);
-    background-image: url("img/lilies3.jpg") center fixed;
-    background-repeat: no-repeat;
     font-style: italic;
     text-align:center;
     font-size: 20px;
     display: block;
 }
 
-nav {
-    
-    background-color:  lightseagreen;
+nav ul li {
     color: palevioletred;
     list-style: none;
     display: block;
     font-size: 14px;
+    text-align: right;
+    text-decoration: none;
+	font-family: Verdana, Geneva, sans-serif;
+	padding: 6px 4px;
+	margin: 4px;
 }
-body {
-    background-image: url("img/lilies.jpg") center fixed;
-    background-repeat: no-repeat;
-    
-    color: rgb(154, 77, 226);
-    font-family:Playfair+Display;
-    align-content: center;
+aside {
+    background-color: #9dad97;
+    padding-left: 55%;
 }
+
 h1{
     color:rgb(128, 12, 50);
     
-    display: inline-block;
+    display: block;
 }
 
-h2{
-    color: red;
+h2 h3 p{
+    color: darkred;
     font-family: Playfair+Display;
+    Display:block;
     text-align: center;
-
+    font-size: 18px;
 }
 
 .k{
-    border-color: violet;
     border-color: blueviolet;
+    background-color: bisque;
     color: rgb(0, 52, 241);
-    font-style: initial;
+    font-style: italic;
     text-shadow: #999999 1px 1px 1px;
     font: italic;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif';
+    font-family: 'Segoe UI', 'Tahoma, Geneva, Verdana, sans-serif';
     font-size: 24px;
     font-style: oblique;
 }
 
-#aboutme{
-    color: rgb(128, 12, 50);
+#aboutme {
+    color: darkred;
     font:italic;
     font-family: 'Playfair+Display';
-    font-size: 14px;
+    font-size: 18px;
     font-style: oblique;
-    border-image: 25%;
-    border-image-source: img/lilies1.jpg;
-
-
-
+    background-color: pink;
+    border: none;
 }
 
-Main{
-background-color: azure
-
-
-
+ul li {
+    list-style: none;
 }
-
 section {
-    background-color: pink ;
-    color: black;
-    width: 475px;
+    background-color: papayawhip ;
+    background-image: url(lilies3.jpg);
+    background-size: cover;
+    color: darkmagenta;
+    width: px;
     display:inline-block;
-    padding: 20px;
+    padding: 30%;
     border: 1px solid black;
     outline-style: solid;
     outline-color: red;
     outline-width: thick;
-      
-      
+    list-style: none;
+    text-align:center;
 }
 
-
-gamepage{
-
-    width: 80%;
-    min-height:  40cm;
-    margin: auto;
-    border: solid 2px #000;
-    background-image: url(lilies2.jpg);
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position: center;
-        }
-
-        body {
-            background-image: url("img/lilies2.jpg");
-             background-size: cover;
-             background-repeat: no-repeat;
-             
-           }
