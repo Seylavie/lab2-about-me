@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 
+body {background-img src="img/K1.jpg"}
 
-   background: url(img/lilies.jpg) center fixed;
-    background-size: cover
-
+header {background: url(img/lilies.jpg) center fixed;
+    background-size: cover}
+}
 #top { 
     color: rgb(56, 4, 4);
     background-image: url("img/lilies3.jpg") center fixed;
@@ -16,7 +17,7 @@
 
 nav {
     
-    background-color: lightseagreen;
+    background-color:  lightseagreen;
     color: palevioletred;
     list-style: none;
     display: block;
@@ -101,3 +102,10 @@ gamepage{
     background-repeat: no-repeat;
     background-position: center;
         }
+
+        body {
+            background-image: url("img/lilies2.jpg");
+             background-size: cover;
+             background-repeat: no-repeat;
+             
+           }
